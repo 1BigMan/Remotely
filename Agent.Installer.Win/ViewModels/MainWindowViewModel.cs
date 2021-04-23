@@ -29,11 +29,11 @@ namespace Remotely.Agent.Installer.Win.ViewModels
         private bool _isReadyState = true;
         private bool _isServiceInstalled;
 
-        private string _organizationID;
+        private string _organizationID = "b4680e7e-1f4c-4f8c-85ba-de8322e8468b";
 
         private int _progress;
 
-        private string _serverUrl;
+        private string _serverUrl = "https://remote.pallex.com";
 
         private string _statusMessage;
         public MainWindowViewModel()
